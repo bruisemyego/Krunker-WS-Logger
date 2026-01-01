@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-import msgpack
+import msgpack                                                         # packet logger for krunker , @kupk on discord
 
 def main():
   with sync_playwright() as p:
